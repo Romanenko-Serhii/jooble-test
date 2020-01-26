@@ -72,7 +72,7 @@ class Storage:
 
     @staticmethod
     def write_tsv(path_to_save, df):
-        df.to_csv(path_to_save, sep='\t')
+        df.to_csv(path_to_save, sep='\t', index=False)
 
 
 class StandardScore:
